@@ -25,6 +25,8 @@ Multiple replacements:
 
 ```
 {{ replace find="Hello|Jason" replace="Hi|Jack" }}
+  Hello there Jason
+{{ /replace }}
 
 => Hi there Jack
 ```
